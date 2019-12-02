@@ -23,6 +23,10 @@
         ◦ Challenge 1
             ▪ URL:https://edabit.com/challenge/w5LTwJwDLK4uQ3Dmv
             ▪ Solutions: https://www.dropbox.com/s/y02kb1xgz26uzwo/Screenshot_7.png?dl=0
+    5. Object 
+        ◦ Challenge 1
+            ▪ URL:https://edabit.com/challenge/CaWc84kuPBzCMEcR3
+            ▪ Solutions: https://www.dropbox.com/s/nij7g1gtnbcigve/Screenshot_8.png?dl=0
 
 
 
