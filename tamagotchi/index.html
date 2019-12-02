@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tamagochi</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <script defer src="script.js"></script>
+   </head>
+   <body>
+      <section class="main-section">
+         <h1>Choose your pet</h1>
+         <button id="main-button1">
+         Lazy pug (hard level)
+         </button>
+         <button id="main-button2">
+         Fluffy kitty (easy level)
+         </button>
+      </section>
+      <section class="wrapper">
+         <div id="second">
+            0
+         </div>
+         <div class="img-block">
+            <img src="img/happymops.jpg" class="pet" id="pet" alt="imagem">
+         </div>
+         <div class="stats">
+            <div class="stats__percent">
+               <h2>Status</h2>
+               <span> Food:</span>
+               <div id="food" class="bar">
+                  In progress
+               </div>
+               <span>Clean: </span>
+               <div id="clean" class="bar">In progress</div>
+               <span> Happiness: </span>
+               <div id="happiness" class="bar"> In progress</div>
+            </div>
+            <div class="add-stats">
+               <h2>Actions</h2>
+               <button class="add-stats__button" onclick="Eat()" id="eat">Eat</button>
+               <button class="add-stats__button" onclick="Wash()" id="wash">Wash</button>
+               <button class="add-stats__button" onclick="Run()" id="walk">Run</button>
+            </div>
+         </div>
+         <div id="run"></div>
+         <div class="restart-button">
+            <span id="reload" onclick="location.reload()">Restart</span>
+         </div>
+         </div>
+      </section>
+      <section class="wrapper-2">
+         <div id="secondс">
+            0
+         </div>
+         <div class="img-block">
+            <img src="img/cat1.jpg" class="pet" id="petc" alt="imagem">
+         </div>
+         <div class="stats">
+            <div class="stats__percent">
+               <h2>Status</h2>
+               <span> Food:</span>
+               <div id="foodc" class="bar">
+                  In progress
+               </div>
+               <span>Clean: </span>
+               <div id="cleanc" class="bar">In progress</div>
+               <span> Happiness: </span>
+               <div id="happinessc" class="bar"> In progress</div>
+            </div>
+            <div class="add-stats">
+               <h2>Actions</h2>
+               <button class="add-stats__button" onclick="Eatc()" id="eatc">Eat</button>
+               <button class="add-stats__button" onclick="Washc()" id="washc">Wash</button>
+               <button class="add-stats__button" onclick="Runc()" id="walkc">Run</button>
+            </div>
+         </div>
+         <div id="runc"></div>
+         <div class="restart-button">
+            <span id="reloadc" onclick="location.reload()">Restart</span>
+         </div>
+         </div>
+      </section>
+   </body>
+</html>

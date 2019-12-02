@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+body {
+  font-family: 'Alatsi', sans-serif;
+}
+
+.pet {
+  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 486px) {
+  .pet {
+    width: 275px;
+    height: 136px;
+  }
+}
+
+button {
+  outline: 0 !important;
+  border: 0px;
+}
+
+.img-block {
+  display: flex;
+}
+
+.main-section {
+  text-align: center;
+}
+
+#main-button1 {
+  margin: 10px;
+  background-color: #778899;
+  padding: 15px 15px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFAF0;
+  margin-top: 10px;
+}
+
+#main-button2 {
+  margin: 10px;
+  background-color: #778899;
+  padding: 15px 15px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFAF0;
+  margin-top: 10px;
+}
+
+.wrapper {
+  max-width: 970px;
+  min-height: 500px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #808080;
+  color: #FFFAF0;
+  padding-top: 15px;
+  display: none;
+}
+
+.wrapper-2 {
+  max-width: 970px;
+  min-height: 500px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #808080;
+  color: #FFFAF0;
+  padding-top: 15px;
+  display: none;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 42px;
+}
+
+@media screen and (max-width: 486px) {
+  .stats {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.stats__percent {
+  width: 100px;
+}
+
+.bar {
+  padding-left: 2px;
+  width: 100px;
+  background: #99cc00;
+  margin: 5px 10px;
+  border-radius: 4px;
+  padding: 3px 3px;
+}
+
+.add-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-stats__button {
+  background-color: #778899;
+  padding: 10px 10px;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 13px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFAF0;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.add-stats__button:hover {
+  background-color: #2F4F4F;
+}
+
+#run {
+  color: #FFD700;
+  font-weight: 800;
+  font-size: 56px;
+  text-align: center;
+}
+
+#runc {
+  color: #FFD700;
+  font-weight: 800;
+  font-size: 56px;
+  text-align: center;
+}
+
+#reload {
+  background-color: #778899;
+  padding: 10px 10px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  margin: 0 auto;
+}
+
+#reload:hover {
+  background-color: #2F4F4F;
+}
+
+#reloadc {
+  background-color: #778899;
+  padding: 10px 10px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  margin: 0 auto;
+}
